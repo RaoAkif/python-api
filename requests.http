@@ -1,0 +1,28 @@
+### Create a new To-Do item
+POST http://localhost:5000/todos
+Content-Type: application/json
+
+{
+    "task": "Complete the project documentation"
+}
+
+### Retrieve all To-Do items
+GET http://localhost:5000/todos
+
+### Retrieve a specific To-Do item by ID
+# Replace <id> with an actual item ID after creating an item
+GET http://localhost:5000/todos/1
+
+### Update a specific To-Do item by ID
+# Replace <id> with an actual item ID
+PUT http://localhost:5000/todos/1
+Content-Type: application/json
+
+{
+    "task": "Complete the project documentation and review",
+    "completed": true
+}
+
+### Delete a specific To-Do item by ID
+# Replace <id> with an actual item ID
+DELETE http://localhost:5000/todos/1

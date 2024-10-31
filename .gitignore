@@ -1,0 +1,31 @@
+# Python and Flask files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Environment variables
+*.env
+
+# Database files
+*.db
+*.sqlite3
+
+# Logs and temporary files
+*.log
+*.tmp
+*.pid
+
+# VS Code settings and files
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+.coverage
+
+# IDE files
+.idea/
